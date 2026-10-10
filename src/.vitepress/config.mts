@@ -10,7 +10,7 @@ import container from 'markdown-it-container'
 import { PROJECT } from './config/project'
 import { COLORS }  from './config/colors'
 import { LOGOS, getDarkLogoPath } from './config/logos'
-import { UNITS, getAllUnitsArray, unitNavbars } from './config/units'
+import { UNITS, getAllUnitsArray, unitNavbars, unitsMenu } from './config/units'
 import { getNavbarForUnit, getSidebarForUnit } from './unitHelpers'
 
 
@@ -207,11 +207,10 @@ const logoBranding = {
 const navbar = nonRootUnits.length === 1
   ? getNavbarForUnit(nonRootUnits[0].navbar, nonRootUnits[0].code)
   : [
-      { text: '🏠 Inicio', link: '/' },
-      ...nonRootUnits.map(u => ({
-        text: `${u.icon} ${u.title}`,
-        items: getNavbarForUnit(u.navbar, u.code).filter((item: any) => item.link !== '/'),
-      }))
+      { text: '🏠 Guía didáctica', link: '/' },
+      // Con muchas unidades, un único desplegable «📚 Unidades» (definido en units.ts)
+      // en lugar de un desplegable por unidad.
+      unitsMenu,
     ]
 
 // ── Sidebar multi-prefijo ─────────────────────────────────────────────────────
