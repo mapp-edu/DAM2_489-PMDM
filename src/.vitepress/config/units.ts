@@ -177,6 +177,19 @@ const UNIT_DEFS: UnitDef[] = [
       ['PF · Juego para Android', '/ejercicios/05-proyecto-final'],
     ],
   },
+  {
+    code: 'proyecto', icon: '🚀', title: 'Explora: app y minijuego',
+    contenidos: [
+      ['Descripción y requisitos', '/contenidos/01-descripcion'],
+      ['Guía técnica de apoyo', '/contenidos/02-guia-tecnica'],
+    ],
+    actividades: [
+      ['Entregas del proyecto', '/ejercicios/'],
+      ['Fase 1 · App Compose', '/ejercicios/fase-1'],
+      ['Fase 2 · App conectada', '/ejercicios/fase-2'],
+      ['Fase 3 · Minijuego', '/ejercicios/fase-3'],
+    ],
+  },
 ]
 
 const unitLabel = (u: UnitDef) => `${u.code.toUpperCase()} — ${u.title}`

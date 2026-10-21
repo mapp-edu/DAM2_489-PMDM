@@ -208,6 +208,7 @@ const navbar = nonRootUnits.length === 1
   ? getNavbarForUnit(nonRootUnits[0].navbar, nonRootUnits[0].code)
   : [
       { text: '🏠 Guía didáctica', link: '/' },
+      { text: '🚀 Proyecto', link: '/proyecto/' },
       // Con muchas unidades, un único desplegable «📚 Unidades» (definido en units.ts)
       // en lugar de un desplegable por unidad.
       unitsMenu,
