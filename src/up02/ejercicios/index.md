@@ -149,6 +149,18 @@ Entrega en el aula virtual un archivo `.zip` (o el enlace a un repositorio) con:
 1. Una carpeta por actividad con los proyectos de IntelliJ (sin las carpetas `out/`, `build/` ni `.idea/`).
 2. Un documento breve (`README.md` o PDF) que explique, para la Actividad 5, cómo has organizado el código (funciones, clases y colecciones) y **por qué**, e incluya capturas de una ejecución de cada opción del menú.
 
+## Soluciones
+
+Cuando hayas entregado, compara tu trabajo con las soluciones de referencia:
+
+| Actividad | Solución |
+|:---|:---|
+| Actividad 1 — Variables, constantes y control de flujo | [Solución A1](./solucion-1) |
+| Actividad 2 — Colecciones | [Solución A2](./solucion-2) |
+| Actividad 3 — Cadenas | [Solución A3](./solucion-3) |
+| Actividad 4 — Map | [Solución A4](./solucion-4) |
+| Actividad 5 — Funciones: agenda | [Solución A5](./solucion-5) |
+
 ## Rúbrica de evaluación
 
 | Criterio | 1 · Incompleto | 2 · Correcto | 3 · Justificado | 4 · Coherente y comunicado |

@@ -1,6 +1,10 @@
 # Solucionario UP02 — Fundamentos de Kotlin
 
-Soluciones de referencia del [boletín de actividades de la UP02](../../src/up02/ejercicios/index.md). Están fuera de `src/`, así que VitePress no las publica en la web del curso, pero sí son visibles en el repositorio.
+Soluciones de referencia del [boletín de actividades de la UP02](../../src/up02/ejercicios/index.md). Se publican en la web del curso en las páginas `src/up02/ejercicios/solucion-N.md`, con un `.zip` de descarga por actividad en `src/public/descargas/up02/`. Esas páginas y los `.zip` **se generan** a partir de esta carpeta: si cambias una solución, vuelve a ejecutar desde la raíz del repositorio:
+
+```bash
+python3 soluciones/build_solutions.py .
+```
 
 ## Estructura
 
