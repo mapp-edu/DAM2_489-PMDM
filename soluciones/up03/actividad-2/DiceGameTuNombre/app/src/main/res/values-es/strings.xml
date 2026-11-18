@@ -1,0 +1,13 @@
+<resources>
+    <string name="game_title">¿Más, menos o clavado?</string>
+    <string name="rules">Adivina la siguiente tirada. Una flecha cuesta %1$d punto y paga %2$d si sale mayor (▲) o menor (▼) que la anterior. Un número cuesta %3$d puntos y paga %4$d si sale.</string>
+    <string name="points">Puntos: %1$d</string>
+    <string name="last_roll">Última tirada</string>
+    <string name="first_roll">¡Haz tu primera apuesta!</string>
+    <string name="won">¡Has ganado %1$d puntos!</string>
+    <string name="lost">Has perdido %1$d punto(s).</string>
+    <string name="bet_higher">Apostar a que la siguiente tirada es mayor</string>
+    <string name="bet_lower">Apostar a que la siguiente tirada es menor</string>
+    <string name="game_over">FIN DE LA PARTIDA</string>
+    <string name="restart">Volver a empezar</string>
+</resources>

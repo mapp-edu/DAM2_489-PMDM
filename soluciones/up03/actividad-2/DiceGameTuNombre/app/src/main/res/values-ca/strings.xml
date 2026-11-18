@@ -1,0 +1,13 @@
+<resources>
+    <string name="game_title">Més, menys o clavat?</string>
+    <string name="rules">Endevina la següent tirada. Una fletxa costa %1$d punt i paga %2$d si ix major (▲) o menor (▼) que l\'anterior. Un número costa %3$d punts i paga %4$d si ix.</string>
+    <string name="points">Punts: %1$d</string>
+    <string name="last_roll">Última tirada</string>
+    <string name="first_roll">Fes la teua primera aposta!</string>
+    <string name="won">Has guanyat %1$d punts!</string>
+    <string name="lost">Has perdut %1$d punt(s).</string>
+    <string name="bet_higher">Apostar que la següent tirada és major</string>
+    <string name="bet_lower">Apostar que la següent tirada és menor</string>
+    <string name="game_over">FI DE LA PARTIDA</string>
+    <string name="restart">Tornar a començar</string>
+</resources>

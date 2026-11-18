@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name" translatable="false">Basket 3x3 TuNombre</string>
+    <string name="home">Home</string>
+    <string name="away">Away</string>
+    <string name="player">Player %1$d</string>
+    <string name="one_point" translatable="false">+1</string>
+    <string name="two_points" translatable="false">+2</string>
+    <string name="fouls">Fouls: %1$d/%2$d</string>
+    <string name="add_foul" translatable="false">+</string>
+    <string name="remove_foul" translatable="false">−</string>
+    <string name="bonus">BONUS</string>
+    <string name="winner">WINNER!</string>
+    <string name="reset">Reset</string>
+    <string name="undo">Undo</string>
+</resources>

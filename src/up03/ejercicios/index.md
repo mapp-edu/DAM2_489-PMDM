@@ -108,6 +108,17 @@ Se entregan las **actividades 1, 2 y 3**. Para cada una:
 3. Comprime **la carpeta** del proyecto (no su contenido) en un `.zip`.
 4. Adjunta en el aula virtual el vídeo y el archivo comprimido.
 
+## Soluciones
+
+Cuando hayas entregado, compara tu trabajo con las soluciones de referencia. Cada una incluye el proyecto completo para abrir en Android Studio:
+
+| Actividad | Solución |
+|:---|:---|
+| Actividad 0 — Contador de clics | [Solución A0](./solucion-0) |
+| Actividad 1 — Estadísticas | [Solución A1](./solucion-1) |
+| Actividad 2 — Dice Game | [Solución A2](./solucion-2) |
+| Actividad 3 — Basket 3x3 (con deshacer) | [Solución A3](./solucion-3) |
+
 ## Rúbrica de evaluación
 
 | Criterio | 1 · Incompleto | 2 · Correcto | 3 · Justificado | 4 · Coherente y comunicado |

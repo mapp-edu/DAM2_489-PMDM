@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="people">#FF00695C</color>
+    <color name="scooters">#FFEF6C00</color>
+    <color name="bikes">#FF1565C0</color>
+    <color name="cars">#FFC62828</color>
+    <color name="randomize">#FF4527A0</color>
+</resources>

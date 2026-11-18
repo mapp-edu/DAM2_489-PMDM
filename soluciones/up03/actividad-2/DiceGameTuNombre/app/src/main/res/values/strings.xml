@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name" translatable="false">Dice Game TuNombre</string>
+    <string name="author" translatable="false">TuNombre TuApellido</string>
+    <string name="arrow_up" translatable="false">▲</string>
+    <string name="arrow_down" translatable="false">▼</string>
+    <string name="game_title">Higher, lower or spot on?</string>
+    <string name="rules">Guess the next roll. An arrow costs %1$d point and pays %2$d if the roll is higher (▲) or lower (▼) than the last one. A number costs %3$d points and pays %4$d if it comes up.</string>
+    <string name="points">Points: %1$d</string>
+    <string name="last_roll">Last roll</string>
+    <string name="first_roll">Place your first bet!</string>
+    <string name="won">You won %1$d points!</string>
+    <string name="lost">You lost %1$d point(s).</string>
+    <string name="bet_higher">Bet that the next roll is higher</string>
+    <string name="bet_lower">Bet that the next roll is lower</string>
+    <string name="game_over">GAME OVER</string>
+    <string name="restart">Play again</string>
+</resources>

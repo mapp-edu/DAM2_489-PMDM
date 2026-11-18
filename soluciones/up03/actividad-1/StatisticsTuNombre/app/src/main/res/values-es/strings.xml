@@ -1,0 +1,12 @@
+<resources>
+    <string name="title">Estadísticas %1$s</string>
+    <string name="people">Personas</string>
+    <string name="scooters">Patinetes</string>
+    <string name="bikes">Bicicletas</string>
+    <string name="cars">Coches</string>
+    <string name="count_and_percentage">%1$d · %2$.1f %%</string>
+    <string name="reset">Reiniciar</string>
+    <string name="total">Total: %1$d</string>
+    <string name="reset_all">Reiniciar todos</string>
+    <string name="randomize">Aleatorio</string>
+</resources>

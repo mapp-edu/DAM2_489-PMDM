@@ -89,6 +89,10 @@ const UNIT_DEFS: UnitDef[] = [
     ],
     actividades: [
       ['Boletín y rúbrica', '/ejercicios/'],
+      ['Solución A0 · Contador de clics', '/ejercicios/solucion-0'],
+      ['Solución A1 · Estadísticas', '/ejercicios/solucion-1'],
+      ['Solución A2 · Dice Game', '/ejercicios/solucion-2'],
+      ['Solución A3 · Basket 3x3', '/ejercicios/solucion-3'],
     ],
   },
   {

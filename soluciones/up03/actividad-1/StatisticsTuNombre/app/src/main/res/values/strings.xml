@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">Statistics TuNombre</string>
+    <string name="author_name" translatable="false">TuNombre</string>
+    <string name="title">Statistics %1$s</string>
+    <string name="people">People</string>
+    <string name="scooters">Scooters</string>
+    <string name="bikes">Bicycles</string>
+    <string name="cars">Cars</string>
+    <string name="count_and_percentage">%1$d · %2$.1f %%</string>
+    <string name="plus_one" translatable="false">+1</string>
+    <string name="minus_one" translatable="false">−1</string>
+    <string name="reset">Reset</string>
+    <string name="total">Total: %1$d</string>
+    <string name="reset_all">Reset all</string>
+    <string name="randomize">Randomize</string>
+</resources>

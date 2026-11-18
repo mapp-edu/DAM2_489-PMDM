@@ -1,0 +1,10 @@
+<resources>
+    <string name="home">Local</string>
+    <string name="away">Visitante</string>
+    <string name="player">Jugador %1$d</string>
+    <string name="fouls">Faltas: %1$d/%2$d</string>
+    <string name="bonus">BONUS</string>
+    <string name="winner">¡GANADOR!</string>
+    <string name="reset">Resetear</string>
+    <string name="undo">Deshacer</string>
+</resources>
