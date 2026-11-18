@@ -41,6 +41,10 @@ interface UnitDef {
   icon: string
   contenidos: Page[]
   actividades: Page[]
+  /** Nombre corto en menús (por defecto, el código en mayúsculas) */
+  short?: string
+  /** Título del grupo de actividades en el sidebar (por defecto «🛠️ Actividades») */
+  actividadesLabel?: string
 }
 
 const UNIT_DEFS: UnitDef[] = [
@@ -194,9 +198,18 @@ const UNIT_DEFS: UnitDef[] = [
       ['Fase 3 · Minijuego', '/ejercicios/fase-3'],
     ],
   },
+  {
+    code: 'evaluacion', short: 'Evaluación', icon: '📝', title: 'Exámenes y simulacros',
+    contenidos: [],
+    actividadesLabel: '📝 1.ª evaluación',
+    actividades: [
+      ['Simulacro de examen', '/1ev/simulacro'],
+    ],
+  },
 ]
 
-const unitLabel = (u: UnitDef) => `${u.code.toUpperCase()} — ${u.title}`
+const unitShort = (u: UnitDef) => u.short ?? u.code.toUpperCase()
+const unitLabel = (u: UnitDef) => `${unitShort(u)} — ${u.title}`
 
 function buildSidebar(u: UnitDef): DefaultTheme.SidebarItem[] {
   const toItems = (pages: Page[]) => pages.map(([text, link]) => ({ text, link }))
@@ -205,7 +218,7 @@ function buildSidebar(u: UnitDef): DefaultTheme.SidebarItem[] {
     { text: `${u.icon} ${unitLabel(u)}`, collapsed: false, items: [{ text: '🏠 Presentación', link: '/' }] },
   ]
   if (u.contenidos.length) sidebar.push({ text: '📚 Contenidos', collapsed: false, items: toItems(u.contenidos) })
-  if (u.actividades.length) sidebar.push({ text: '🛠️ Actividades', collapsed: false, items: toItems(u.actividades) })
+  if (u.actividades.length) sidebar.push({ text: u.actividadesLabel ?? '🛠️ Actividades', collapsed: false, items: toItems(u.actividades) })
   return sidebar
 }
 
@@ -250,7 +263,7 @@ export const UNITS: Record<string, UnitConfig> = {
   ...Object.fromEntries(UNIT_DEFS.map(u => [u.code.toUpperCase(), {
     id: u.code,
     code: u.code,
-    title: u.code.toUpperCase(),
+    title: unitShort(u),
     fullTitle: unitLabel(u),
     siteTitle: 'Programación Multimedia</br>y Dispositivos Móviles',
     icon: u.icon,
@@ -282,11 +295,11 @@ export const unitsMenu: DefaultTheme.NavItem = {
 // estás dentro de una unidad.
 export const unitNavbars: Record<string, NavGroup[]> = Object.fromEntries(
   UNIT_DEFS.map(u => [u.code, [{
-    text: `${u.icon} ${u.code.toUpperCase()}`,
+    text: `${u.icon} ${unitShort(u)}`,
     items: [
       { text: 'Presentación', link: `/${u.code}/` },
       ...(u.contenidos[0] ? [{ text: 'Contenidos', link: `/${u.code}${u.contenidos[0][1]}` }] : []),
-      ...(u.actividades[0] ? [{ text: 'Actividades', link: `/${u.code}${u.actividades[0][1]}` }] : []),
+      ...(u.actividades[0] ? [{ text: u.actividadesLabel?.replace(/^\S+\s/, '') ?? 'Actividades', link: `/${u.code}${u.actividades[0][1]}` }] : []),
     ],
   }]])
 )
