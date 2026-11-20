@@ -42,32 +42,32 @@ Esta parte se realiza en el cuestionario de Aules. Aquí tienes el mismo conteni
 - **c)** Es una web empaquetada en un WebView que accede al hardware mediante plugins.
 - **d)** Se desarrolla con el SDK y el lenguaje de la plataforma (Kotlin o Java) y accede directamente a todas las APIs del sistema.
 
-#### 2. Aplicación híbrida <Badge type="tip" text="RA1 · b" />
+#### 2. Desventaja de las multiplataforma <Badge type="tip" text="RA1 · b" />
 
-Una aplicación hecha con HTML, CSS y JavaScript, empaquetada en un contenedor nativo que la muestra en un **WebView** y accede a la cámara mediante plugins (por ejemplo, Ionic + Capacitor), es una aplicación…
+¿Cuál de estas es una **desventaja** de las aplicaciones **multiplataforma** frente a las nativas?
 
-- **a)** Web progresiva (PWA).
-- **b)** Híbrida.
-- **c)** Nativa.
-- **d)** Multiplataforma compilada, como Flutter o Kotlin Multiplatform.
+- **a)** Hay que desarrollarlas tantas veces como plataformas se quieran cubrir.
+- **b)** No permiten reutilizar código entre plataformas.
+- **c)** Peor rendimiento, porque las herramientas añaden capas extra para traducir las funcionalidades a cada plataforma.
+- **d)** Exigen conocer a fondo los entresijos de cada plataforma.
 
-#### 3. Motor de renderizado propio <Badge type="tip" text="RA1 · b" />
+#### 3. Flutter <Badge type="tip" text="RA1 · b" />
 
-¿Qué tecnología multiplataforma **dibuja toda la interfaz con su propio motor de renderizado**, en lugar de usar los componentes visuales nativos de cada sistema?
+Según la tabla de tecnologías de desarrollo, ¿qué herramienta multiplataforma de **Google** se programa en **Dart**?
 
-- **a)** React Native.
-- **b)** Flutter.
-- **c)** Capacitor.
-- **d)** Kotlin Multiplatform compartiendo solo la lógica de negocio.
+- **a)** Flutter.
+- **b)** Kotlin Multiplatform.
+- **c)** React Native.
+- **d)** .NET MAUI.
 
-#### 4. Limitaciones de una PWA <Badge type="tip" text="RA1 · b" />
+#### 4. Publicación costosa <Badge type="tip" text="RA1 · b" />
 
-¿Cuál es una limitación habitual de una **aplicación web progresiva (PWA)** frente a una aplicación nativa?
+Una de las desventajas de las aplicaciones multiplataforma es que su **publicación puede ser costosa**. ¿Por qué?
 
-- **a)** El acceso al hardware y a las APIs del sistema depende de lo que permita el navegador, y suele ser más limitado.
-- **b)** No puede funcionar sin conexión.
-- **c)** Debe publicarse obligatoriamente en Google Play.
-- **d)** Solo puede programarse en Kotlin.
+- **a)** Porque Google Play cobra una cuota distinta por cada plataforma.
+- **b)** Porque hay que reescribir la aplicación en el lenguaje de cada tienda.
+- **c)** Porque Android no permite instalar aplicaciones multiplataforma.
+- **d)** Porque publicar en los canales oficiales puede exigir requisitos adicionales, como un ordenador con macOS y Xcode para la App Store.
 
 ### UP01 · Arquitectura: de Dalvik a ART
 
@@ -102,30 +102,30 @@ Ordena **de abajo arriba** las capas principales de la arquitectura de Android.
 
 #### 8. Concepto de fragmentación <Badge type="tip" text="RA1 · d" />
 
-En Android, la **fragmentación** se refiere a…
+Se llama **fragmentación** al hecho de que…
 
-- **a)** La división del código de una app en varios archivos .dex.
-- **b)** La fragmentación de la memoria RAM cuando hay muchas apps abiertas.
-- **c)** El reparto de una pantalla en varios componentes Fragment.
-- **d)** La gran variedad de fabricantes, tamaños y densidades de pantalla, hardware y capas de personalización, que obliga a adaptar y probar las apps en dispositivos muy distintos.
+- **a)** El código de una app se reparta en varios archivos .dex.
+- **b)** En un momento dado existan diferentes versiones del sistema instaladas en los dispositivos en uso.
+- **c)** Una pantalla se divida en varios componentes.
+- **d)** La memoria RAM se llene cuando hay muchas apps abiertas.
 
-#### 9. Project Treble <Badge type="tip" text="RA1 · d" />
+#### 9. Factores de la fragmentación <Badge type="tip" text="RA1 · d" />
 
-¿Qué objetivo tiene **Project Treble**?
+Según los apuntes, ¿de qué **dos factores** depende principalmente la fragmentación en Android?
 
-- **a)** Actualizar componentes del sistema a través de Google Play, sin pasar por el fabricante.
-- **b)** Separar la parte del sistema que implementa cada fabricante (vendor) del framework de Android mediante una interfaz estable, para que las actualizaciones lleguen antes.
-- **c)** Ofrecer bibliotecas con APIs compatibles en muchos dispositivos, como AndroidX.
-- **d)** Unificar las capas de personalización de todos los fabricantes en una sola.
+- **a)** Del lenguaje de programación y del IDE que se usen.
+- **b)** Del tamaño del .apk y del número de aplicaciones instaladas.
+- **c)** De la predisposición del fabricante a actualizar sus dispositivos y del hardware del dispositivo.
+- **d)** De Google Play y de la App Store.
 
-#### 10. Combatir la fragmentación <Badge type="tip" text="RA1 · e" />
+#### 10. Distribución acumulativa <Badge type="tip" text="RA1 · e" />
 
-¿Qué práctica ayuda a que una app funcione bien **a pesar de la fragmentación**?
+Al crear un proyecto, Android Studio indica que con un **SDK mínimo API 28** la app funcionará en aproximadamente el **97 %** de los dispositivos. ¿Qué significa?
 
-- **a)** Usar dp y sp, recursos con calificadores (idioma, modo oscuro, tamaño), bibliotecas Jetpack y probar en varios perfiles de emulador.
-- **b)** Fijar todos los tamaños en píxeles para que la interfaz mida lo mismo en cualquier pantalla.
-- **c)** Diseñar y probar solo en el modelo de móvil más vendido.
-- **d)** Bloquear la rotación, el modo oscuro y el tamaño de fuente del sistema.
+- **a)** Que alrededor del 97 % de los dispositivos tiene instalada una versión con nivel de API 28 o superior.
+- **b)** Que alrededor del 97 % de los dispositivos tiene exactamente la API 28.
+- **c)** Que la app solo se podrá instalar en el 3 % de los dispositivos.
+- **d)** Que la app podrá usar el 97 % de las funcionalidades de Android.
 
 ### UP02 · Null safety
 
