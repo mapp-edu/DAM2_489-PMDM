@@ -19,6 +19,6 @@ Antes del examen se publica un **simulacro** con la misma estructura, los mismos
 
 ## 1.ª evaluación
 
-| Prueba | Contenidos |
-|:---|:---|
-| [Simulacro de examen](./1ev/simulacro) | UP01, UP02, UP03 y proyecto *Explora* (fase 1) |
+| Prueba | Contenidos | Solución |
+|:---|:---|:---|
+| [Simulacro de examen](./1ev/simulacro) | UP01, UP02, UP03 y proyecto *Explora* (fase 1) | [Solución comentada](./1ev/simulacro-solucion) |

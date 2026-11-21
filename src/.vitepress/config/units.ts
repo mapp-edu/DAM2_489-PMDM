@@ -194,6 +194,7 @@ const UNIT_DEFS: UnitDef[] = [
     actividades: [
       ['Entregas del proyecto', '/ejercicios/'],
       ['Fase 1 · App Compose', '/ejercicios/fase-1'],
+      ['Fase 1 · Solución de referencia', '/ejercicios/fase-1-solucion'],
       ['Fase 2 · App conectada', '/ejercicios/fase-2'],
       ['Fase 3 · Minijuego', '/ejercicios/fase-3'],
     ],
@@ -204,6 +205,7 @@ const UNIT_DEFS: UnitDef[] = [
     actividadesLabel: '📝 1.ª evaluación',
     actividades: [
       ['Simulacro de examen', '/1ev/simulacro'],
+      ['Solución del simulacro', '/1ev/simulacro-solucion'],
     ],
   },
 ]

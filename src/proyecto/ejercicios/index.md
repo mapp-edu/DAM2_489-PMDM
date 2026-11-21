@@ -18,6 +18,10 @@ El proyecto es **individual**. El uso de cualquier IA, generador de código o la
 | [**Fase 2** · App conectada](./fase-2) | 2.ª | H2.1 (sem. 17) · H2.2 (sem. 23) | Semana 24 | 11 elementos · RA2, RA3 |
 | [**Fase 3** · Minijuego](./fase-3) | 3.ª | H3.1 (sem. 26) · H3.2 (sem. 28) | Semana 30 | 11 elementos · RA4, RA5 |
 
+::: tip-box Solución de referencia
+Ya está disponible la [solución de referencia de la entrega de la 1.ª evaluación](./fase-1-solucion): la pantalla principal con recursos, idiomas y pruebas, con el proyecto completo para descargar.
+:::
+
 ## Cómo se entrega cada fase
 
 1. **Etiqueta Git** en el commit entregado (`fase-1`, `fase-2`, `fase-3`) y repositorio compartido con el profesor.

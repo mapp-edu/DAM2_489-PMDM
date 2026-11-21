@@ -454,3 +454,6 @@ En `CAMBIOS.md`, explica brevemente:
 2. Por qué el estado de los lugares vive en `PantallaLugares` y no en `TarjetaLugar`.
 3. Qué ocurre con los puntos conseguidos al girar la pantalla, y por qué.
 
+::: tip-box Solución
+Cuando hayas terminado, corrige tu simulacro con la [solución comentada](./simulacro-solucion).
+:::

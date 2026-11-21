@@ -10,6 +10,10 @@ aside: true
 
 **Evaluación**: 1.ª · **Unidades**: [UP01](../../up01/) – [UP05](../../up05/) · **Entrega**: semana 13 · **Defensa**: en emulador
 
+::: tip-box Solución de referencia
+La [solución de referencia de la entrega de la 1.ª evaluación](./fase-1-solucion) cubre la parte que se puede hacer con las unidades 1 a 3.
+:::
+
 ## Objetivo
 
 Construir la **primera versión funcional** de *Explora* con Jetpack Compose: varias pantallas conectadas por navegación, un tema de Material 3 propio, animaciones y diseño adaptativo, con **datos de ejemplo en memoria**. Además, analizarás y modificarás una **aplicación existente** para aprender de su estructura.

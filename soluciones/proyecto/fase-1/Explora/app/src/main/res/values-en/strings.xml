@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="buscar">Search place or town</string>
+    <string name="visitados">Visited: %1$d of %2$d</string>
+    <string name="sin_resultados">No places match “%1$s”</string>
+    <plurals name="retos_disponibles">
+        <item quantity="one">%1$d challenge · %2$d points</item>
+        <item quantity="other">%1$d challenges · %2$d points</item>
+    </plurals>
+</resources>

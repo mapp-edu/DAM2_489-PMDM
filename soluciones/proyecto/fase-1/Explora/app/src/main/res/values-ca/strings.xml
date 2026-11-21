@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Valencià -->
+<resources>
+    <string name="buscar">Cerca un lloc o una ciutat</string>
+    <string name="visitados">Visitats: %1$d de %2$d</string>
+    <string name="sin_resultados">Cap lloc coincideix amb «%1$s»</string>
+    <plurals name="retos_disponibles">
+        <item quantity="one">%1$d repte · %2$d punts</item>
+        <item quantity="other">%1$d reptes · %2$d punts</item>
+    </plurals>
+</resources>

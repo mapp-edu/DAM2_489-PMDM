@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Idioma por defecto (de reserva): español. Debe estar siempre completo. -->
+<resources>
+    <string name="app_name" translatable="false">Explora</string>
+    <string name="buscar">Buscar lugar o ciudad</string>
+    <string name="visitados">Visitados: %1$d de %2$d</string>
+    <string name="sin_resultados">No hay lugares que coincidan con «%1$s»</string>
+    <plurals name="retos_disponibles">
+        <item quantity="one">%1$d reto · %2$d puntos</item>
+        <item quantity="other">%1$d retos · %2$d puntos</item>
+    </plurals>
+</resources>
